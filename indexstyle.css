@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+
+.home{
+  display: block;
+  position: absolute;
+  left: 29.5%;
+  top: 22.5%;
+  width: 40%;
+}
+
+#judul{
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 500;
+    letter-spacing: 0.5em;
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    padding-bottom: 0em;
+    animation: cssAnimation 0s 1s forwards;
+    visibility: hidden;
+}
+
+.subjudul{
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    letter-spacing: 0.5em;
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    padding-bottom: 0em;
+    animation: cssAnimation 0s 1.25s forwards;
+    visibility: hidden;
+}
+      
+@keyframes cssAnimation {
+    to   { visibility: visible; }
+}
+
+.mulai{
+    color:black;
+    font-family: 'Source Serif Pro', serif;
+    letter-spacing: 0.3em;
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    display: inline-block;
+    background-color: white;
+    border-radius: 20%;
+    position: absolute;
+    top: 80%;
+    left: 40.75%;
+    animation: cssAnimation 0s 1.5s forwards;
+    visibility: hidden;
+}
+
+audio{
+    position: absolute;
+    top: 90%;
+    visibility: hidden;
+}
